@@ -1,0 +1,16 @@
+Git First Look
+ 
+// Git commends
+$ git init
+$ git clone		[repository url] // git@github.com:SrinivasNagaram/git-first-look.git
+$ git pull		// To download other changes 
+$ git status	//Check changes in local
+$ git add		[filename]  // to add your local changes into git [-A for all]
+$ git add		. entire directory 
+$ git commit	-m"Message"
+$ git push		origin master[branch name]
+
+
+//Generate SSH key
+$ ssh-keygen
+$ cat ~/.ssh/id_rsa.pub //Copy Public Key
